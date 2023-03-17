@@ -56,3 +56,10 @@ print("sum =", sum)
 r = int(input("enter radius of circle:"))
 area = math.pi * r * r
 print("are of circle =", area)
+
+# Quotient and Remainder of Two Numbers
+a = int(input("num1:"))
+b = int(input("num2:"))
+
+print("quotient of a and b is", a//b)
+print(("remainder of a and b is", a%b))
